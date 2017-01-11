@@ -47,16 +47,12 @@ header{
 }
 
 iframe{
-  position: absolute;
-  top: 85%;
+  position: fixed;
+  top: 90%;
   left: 0;
 }
 
 @media (max-width: 425px) {
-  iframe{
-    top:85%;
-  }
-
   header {
     flex-direction: column;
     padding-bottom: 5px;
