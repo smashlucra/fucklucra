@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: black;
+}
+
+h1{
+  color:white;
+  text-align: center;
+  width:50%;
+  font-size: 3em;
+}
+
+h2{
+  color:white;
+  margin:0 auto;
+  text-align: center;
+  width:75%;
+  padding:40px;
+  padding-top:200px;
+  padding-bottom: 80px;
+}
+
+#imgwrap {
+  margin:0 auto;
+  height:200px;
+  width:200px;
+  background-image: url("../img/ging.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:40px;
+}
+
+iframe{
+  position: absolute;
+  top: 85%;
+  left: 0;
+}
+
+@media (max-width: 425px) {
+  iframe{
+    top:85%;
+  }
+
+  header {
+    flex-direction: column;
+    padding-bottom: 5px;
+  }
+
+  h1{
+    padding-bottom: 30px;
+  }
+
+  h2{
+    padding-bottom: 40px;
+    padding-top:40px;
+  }
+}
