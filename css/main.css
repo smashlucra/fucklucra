@@ -46,12 +46,6 @@ header{
   padding:40px;
 }
 
-iframe{
-  position: fixed;
-  top: 85%;
-  left: 0;
-}
-
 @media (max-width: 425px) {
   header {
     flex-direction: column;
