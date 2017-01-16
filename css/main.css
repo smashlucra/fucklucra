@@ -10,6 +10,14 @@ body{
   background-color: black;
 }
 
+#syms{
+  display:block;
+  margin: 0 auto;
+  width:100px;
+  height:100px;
+  padding:20px;
+}
+
 h1{
   color:white;
   text-align: center;
@@ -35,7 +43,7 @@ h2{
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
-  background-color: white;
+  background-color: gray; /* was white to add icon circle */
   border-radius: 50%;
 }
 
