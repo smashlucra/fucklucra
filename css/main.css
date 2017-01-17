@@ -93,7 +93,7 @@ iframe{
     display:flex;
     text-decoration: none;
     color:white;
-    padding-left: 10%;
+    margin-left: 10%;
   }
 
   #menu i {
