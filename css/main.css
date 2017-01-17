@@ -12,11 +12,30 @@ body{
   background-color: black;
 }
 
+#menu{
+  display:none;
+}
+
+ul{
+  padding-left: 20%;
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+li{
+  color:white;
+  padding:10px;
+  text-transform: capitalize;
+  font-size: 1em
+}
+
 h1{
   color:white;
   text-align: center;
   width:50%;
   font-size: 3em;
+  padding-left:5%;
 }
 
 h2{
@@ -46,8 +65,6 @@ header{
   justify-content: center;
   align-items: center;
   padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 iframe{
@@ -60,20 +77,59 @@ iframe{
   justify-content: center;
 }
 
-a{
-  font-size:80px;
+#social a{
+  font-size:40px;
   color:white;
   padding:10px;
-}
+  }
 
-@media (max-width: 425px) {
+@media (max-width: 750px) {
+
+  h1{
+    padding-left: 0;
+  }
+
+  #menu{
+    display:flex;
+    text-decoration: none;
+    color:white;
+    padding-left: 10%;
+  }
+
+  #menu i {
+    font-size:1.5em;
+  }
+
+  nav{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+  }
+
+  nav ul{
+    padding-left: 0;
+    padding:15px;
+    padding-left: 5%;
+    padding-bottom:0;
+    display:none;
+  }
+
   header {
     flex-direction: column;
     padding-bottom: 5px;
   }
 
   h1{
+    display:flex;
+    justify-content: center;
     padding-bottom: 30px;
+    font-size:2.5em;
+  }
+
+  #imgwrap{
+    display:flex;
+    justify-content: center;
+    margin:0;
   }
 
   h2{
@@ -81,9 +137,24 @@ a{
     padding:0;
     padding-top:50px;
     padding-bottom:50px;
+    font-size:1.5em;
   }
 
   a{
     font-size:30px;
+  }
+}
+
+@media (max-width: 350px) {
+  #menu i {
+    font-size:1em;
+  }
+
+  h1{
+    font-size:1.5em;
+  }
+
+  h2{
+    font-size:0.9em;
   }
 }
