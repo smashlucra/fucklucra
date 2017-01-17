@@ -1,0 +1,76 @@
+* {
+  padding:0;
+  margin:0;
+  font-family: 'Overpass Mono', monospace;
+  color:white;
+}
+
+
+nav{
+  display:flex;
+  flex-direction: row;
+}
+
+ul{
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left:4%;
+}
+
+nav ul li{
+  padding-left:15px;
+}
+
+#menu-arrow{
+  display:none;
+}
+
+nav a {
+  list-style: none;
+}
+
+#menu-arrow{
+  font-size: 3em;
+}
+button{
+  text-decoration: none;
+  background-color: black;
+  border:0;
+}
+
+body{
+  background-color: black;
+}
+
+#song-wrapper{
+  margin-top:3%;
+  padding-left:5%;
+}
+
+.titlewrapper{
+  color:white;
+  display: flex;
+  flex-direction: row;
+  font-size:1.5em;
+}
+
+button {
+  font-size:1.8em;
+  position: relative;
+  top:3px;
+  left:15px;
+}
+
+.lyrics{
+  margin-top:3%;
+  color:white;
+}
+
+a i {
+  color:white;
+}
+
+p {
+  display:none;
+}
